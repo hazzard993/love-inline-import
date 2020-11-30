@@ -1,5 +1,5 @@
 {
-  "name": "love2d-inline-import",
+  "name": "love-inline-import",
   "version": "0.0.1",
   "main": "plugin/index.js",
   "license": "MIT",
