@@ -1,5 +1,5 @@
-import * as x from "./soldier.png";
+import * as soldier from "./soldier.png";
 
 love.draw = () => {
-  love.graphics.draw(x);
+  love.graphics.draw(soldier);
 };
