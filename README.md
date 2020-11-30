@@ -1,4 +1,4 @@
-# love2d-import-image
+# love2d-inline-import
 
 A [TypeScriptToLua](https://typescripttolua.github.io/) plugin that in-lines image imports.
 
@@ -7,8 +7,8 @@ A [TypeScriptToLua](https://typescripttolua.github.io/) plugin that in-lines ima
 Add the plugin
 
 ```bash
-yarn add -D love2d-import-image
-# or npm install -D love2d-import-image
+yarn add -D love2d-inline-import
+# or npm install -D love2d-inline-import
 ```
 
 Register the plugin in your `tsconfig.json`
@@ -17,7 +17,7 @@ Register the plugin in your `tsconfig.json`
 {
   "tstl": {
     "luaPlugins": [
-      { "name": "love2d-import-image" }
+      { "name": "love2d-inline-import" }
     ]
   }
 }
