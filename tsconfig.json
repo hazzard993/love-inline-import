@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "lib": ["ESNext"],
+    "rootDir": "src",
+    "outDir": "dist",
+    "types": [
+      "love-typescript-definitions"
+    ]
+  },
+  "tstl": {
+    "luaPlugins": [
+      {
+        "name": "./plugin/index.ts"
+      }
+    ]
+  },
+  "exclude": ["plugin/**"]
+}
